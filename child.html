@@ -26,14 +26,17 @@
       </div>
       <div class="country">
         <label htmlFor='country'>Country</label><br/>
-        <select name="country" id="con" name="countstate" onchange="addstate()">
+        <select name="country" id="con" name="countstate" onchange="addstate()" required>
+          <option value="">Select Country</option>
         </select>
       </div>
       <div class="state"><label htmlFor='state'>State</label><br/>
-        <select name="State" id="sta" ></select></div>
+        <select name="State" id="sta" required>
+          <option value="">Select State</option>
+        </select></div>
       <div class="email">
         <label htmlFor='email'>email</label><br/>
-        <input type="text" placeholder="Enter your email" name="femail" class="formerror"/>
+        <input type="text" placeholder="Enter your email" name="femail" class="formerror" />
       </div>
       <div class="submit">
         <input type="submit" value="Submit" class="submit1" id="sub"></input>
