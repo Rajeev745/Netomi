@@ -26,7 +26,7 @@ function validateForm() {
   if (JSON.stringify(err) === "{}") {
     result.innerHTML = ``;
     err.result = "All fields are valid";
-    result.innerHTML = `<div>${err.result}</div>`;
+    result.innerHTML = `<div>${JSON.stringify(err)}</div>`;
   } else {
     result.innerHTML = ``;
     result.innerHTML = `<div>${JSON.stringify(err)}</div>`;
