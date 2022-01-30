@@ -18,6 +18,11 @@ function validateForm() {
   if (dob == null || dob == "") {
     err.DOB = "Invalid date of birth";
   }
+  var con = document.myForm.countstate.value;
+  if (con == "") {
+    err.Country = "select Country";
+  }
+
   if (JSON.stringify(err) === "{}") {
     result.innerHTML = ``;
     err.result = "All fields are valid";

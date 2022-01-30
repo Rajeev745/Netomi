@@ -15,7 +15,6 @@ html {
 .App {
   height: 80%;
   width: 80%;
-  border: 10px solid green;
   display: flex;
   flex-direction: column;
   justify-content: center;
