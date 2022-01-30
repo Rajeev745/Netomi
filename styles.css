@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  height: 80%;
+  width: 80%;
+  border: 10px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputform {
+  height: 450px;
+  width: 300px;
+  background-color: lightgrey;
+  overflow: hidden;
+}
+.input-details {
+  height: 7%;
+  width: 100%;
+  margin-left: 5%;
+}
+.name {
+  height: 12%;
+  width: 100%;
+  margin-top: 5%;
+}
+.name input {
+  height: 50%;
+  width: 90%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+}
+label {
+  margin-left: 5%;
+}
+.dob {
+  height: 12%;
+  width: 100%;
+  margin-top: 2%;
+}
+.dob input {
+  height: 50%;
+  width: 90%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+}
+.contact {
+  height: 12%;
+  width: 100%;
+  margin-top: 2%;
+}
+.contact input {
+  height: 50%;
+  width: 90%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+}
+.country {
+  height: 12%;
+  width: 100%;
+  margin-top: 2%;
+}
+.country select {
+  height: 50%;
+  width: 90%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+}
+.state {
+  height: 12%;
+  width: 100%;
+  margin-top: 2%;
+}
+.state select {
+  height: 50%;
+  width: 90%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+}
+.email {
+  height: 12%;
+  width: 100%;
+  margin-top: 2%;
+}
+.email input {
+  height: 50%;
+  width: 90%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+}
+.submit {
+  height: auto;
+  width: 100%;
+  margin-top: 2%;
+}
+.submit input {
+  height: 30px;
+  width: 70px;
+  background-color: green;
+  color: white;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+}
